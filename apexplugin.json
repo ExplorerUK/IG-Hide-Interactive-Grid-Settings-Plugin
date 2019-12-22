@@ -1,0 +1,35 @@
+{
+  "name" : "IG Hide Interactive Grid Settings",
+  "version" : "19.2.0",
+  "description" : "Hides all settings (Aggregates, Control Breaks, Filters, Flashbacks and Highlight) from saved reports",
+  "keywords" : ["ig", "grid", "report", "hide", "settings"],
+  "homepage" : "https://github.com/ExplorerUK/IG-Hide-Interactive-Grid-Settings-Plugin",
+  "bugs" : {
+    "url" : "https://github.com/ExplorerUK/IG-Hide-Interactive-Grid-Settings-Plugin/issues",
+    "email" : "matt.mulvaney@explorer.uk.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Matt Mulvaney",
+    "email" : "matt.mulvaney@explorer.uk.com",
+    "url" : "https://explorer.co.uk/blog",
+    "twitter" : "Matt_Mulvaney",
+    "donationUrl" : "https://www.justgiving.com/saintmichaelshospice"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ExplorerUK/IG-Hide-Interactive-Grid-Settings-Plugin.git"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["19.1.0","19.2.0"],
+      "plugin" : {
+        "internalName" : "COM.UK.EXPLORER.IGRDS",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=25679",
+        "previewImage" : "https://raw.githubusercontent.com/ExplorerUK/IG-Hide-Interactive-Grid-Settings-Plugin/master/preview.gif"
+      }
+    }
+  }
+}
