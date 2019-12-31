@@ -25,7 +25,7 @@
     "apex" : {
       "versions" : ["19.1.0","19.2.0"],
       "plugin" : {
-        "internalName" : "COM.UK.EXPLORER.IGRDS",
+        "internalName" : "COM.UK.EXPLORER.IGHIGS",
         "type" : "dynamic action",
         "demo" : "https://apex.oracle.com/pls/apex/f?p=25679",
         "previewImage" : "https://raw.githubusercontent.com/ExplorerUK/IG-Hide-Interactive-Grid-Settings-Plugin/master/preview.gif"
